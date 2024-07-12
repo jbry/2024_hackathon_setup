@@ -1,0 +1,8 @@
+1) Download: https://github.com/jbry/Adafruit-ST7735-Library/archive/refs/tags/10.0.4_hack.zip
+2) Sketch -> Include Library -> Add .zip Library. Select the previous download
+3) Sketch -> Include Library -> Library Manager
+4) Install: SD
+5) Install: Adafruit GFX Library
+6) Install: Adafruit seesaw Library
+7) Try the display_sample code included.
+8) If the display is mirrored, edit "tft.setRotation(ST77XX_ROTATE_RIGHT,true);" - changing the second argument to "false". You can also change the first parameter to rotate the screen's top
